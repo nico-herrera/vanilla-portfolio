@@ -4,6 +4,44 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="/dist/output.css" rel="stylesheet" />
+		<script src="/index.js" type="module"></script>
 	</head>
-	<body> </body>
+	<body class="bg-slate-900 text-white scroll-smooth">
+		<main id="main" class="relative w-full h-full">
+			<header
+				class="h-12 flex justify-between items-center w-full top-0 fixed px-20 pt-4 bg-opacity-30 z-50"
+			>
+				<a href="#main" class="text-2xl">Nico Herrera</a>
+				<nav class="flex justify-between items-center text-2xl w-96">
+					<a href="#about">About</a>
+					<a href="#projects">Projects</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</header>
+			<!--  -->
+			<article class="h-screen mt-12 flex items-center justify-center">
+				<div> Hero </div>
+			</article>
+			<article id="about" class="h-96 bg-slate-800">
+				<div class="flex flex-col justify-center items-start h-full pl-20">
+					<h1 class="text-5xl text-bold leading-5 mb-8">Nico Herrera</h1>
+					<h2 class="text-3xl leading-5 mb-4">Full-Stack Web Developer</h2>
+					<p class="w-1/2 text-lg"
+						>Full-Stack Web Developer with a passion for UI and flawless backend
+						architecture. Hobbies include working on side projects related to
+						veganism/environmentalism, researching new stacks to keep up to date
+						with the latest technologies, and finding new coding breakthroughs
+						in web3.</p
+					>
+				</div>
+			</article>
+			<article id="projects" class="min-h-[50vh] h-auto">
+				<div
+					id="project-list"
+					class="flex flex-wrap items-center justify-evenly w-full"
+				>
+				</div>
+			</article>
+		</main>
+	</body>
 </html>
